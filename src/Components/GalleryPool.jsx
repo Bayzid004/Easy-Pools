@@ -16,7 +16,7 @@ const GalleryPool = () => {
           Pool Installation Gallery Of Past Projects
         </h1>
         <div className='p-4 md:p-0'>
-          <div className='lg:grid grid-cols-4 md:grid md:grid-cols-2 content-center pt-6'>
+          <div className='lg:grid grid-cols-4 content-center pt-6'>
             <Image
               src='/Gallery1.png'
               width={464}

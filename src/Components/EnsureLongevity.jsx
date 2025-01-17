@@ -19,7 +19,7 @@ const EnsureLongevity = () => {
           <div className='lg:w-[1350px] mt-6 w-[280px] mx-auto h-[4px] bg-[#00787A] rounded-full'></div>
           <div className='lg:flex gap-x-4'>
             <div className='flex-col justify-items-center'>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div>
                 <Image
                   className='border-2 px-3 py-2 rounded-[50%] border-[#049E43]'
@@ -29,7 +29,7 @@ const EnsureLongevity = () => {
                   alt='Process1'
                 />
               </div>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div className='w-[320px] ml-2 lg:mb-0 lg:ml-0 border rounded-md text-center p-4 bg-gradient-to-b from-[#D9D9D933] to-[#D9D9D9A6]'>
                 <h3 className='text-2xl font-bold'>Premium Vinyl Liner</h3>
                 <p className='text-xl font-light'>
@@ -39,7 +39,7 @@ const EnsureLongevity = () => {
               </div>
             </div>
             <div className='flex-col lg:block hidden justify-items-center'>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div>
                 <Image
                   className='border-2 px-3 py-2 rounded-[50%] border-[#049E43]'
@@ -49,7 +49,7 @@ const EnsureLongevity = () => {
                   alt='Process1'
                 />
               </div>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div className='w-[320px] mb-5 ml-2 lg:mb-0 lg:ml-0 border rounded-md text-center p-4 bg-gradient-to-b from-[#D9D9D933] to-[#D9D9D9A6]'>
                 <h3 className='text-2xl font-bold'>Robust Frame Structure</h3>
                 <p className='text-xl font-light'>
@@ -59,7 +59,7 @@ const EnsureLongevity = () => {
               </div>
             </div>
             <div className='flex-col lg:block hidden justify-items-center'>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div>
                 <Image
                   className='border-2 px-3 py-2 rounded-[50%] border-[#049E43]'
@@ -69,7 +69,7 @@ const EnsureLongevity = () => {
                   alt='Process1'
                 />
               </div>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div className='w-[320px] mb-5 ml-2 lg:mb-0 lg:ml-0 border rounded-md text-center p-4 bg-gradient-to-b from-[#D9D9D933] to-[#D9D9D9A6]'>
                 <h3 className='text-2xl font-bold'>Seamless Installation</h3>
                 <p className='text-xl font-light'>
@@ -79,7 +79,7 @@ const EnsureLongevity = () => {
               </div>
             </div>
             <div className='flex-col lg:block hidden justify-items-center'>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div>
                 <Image
                   className='border-2 px-3 py-2 rounded-[50%] border-[#049E43]'
@@ -89,7 +89,7 @@ const EnsureLongevity = () => {
                   alt='Process1'
                 />
               </div>
-              <div class='border-l-4 px-1 border-[#00787A] h-16'></div>
+              <div className='border-l-4 px-1 border-[#00787A] h-16'></div>
               <div className='w-[320px] mb-5 ml-2 lg:mb-0 lg:ml-0 border rounded-md text-center p-4 bg-gradient-to-b from-[#D9D9D933] to-[#D9D9D9A6]'>
                 <h3 className='text-2xl font-bold'>Chemical Resistance</h3>
                 <p className='text-xl font-light'>
@@ -100,15 +100,15 @@ const EnsureLongevity = () => {
             </div>
           </div>
           <div className='lg:w-[900px] w-[300px] mx-auto'>
-            <div class='flex items-center justify-center space-x-2 py-4'>
-              <div class='flex-grow border-t-2 border-[#049E43]'></div>
-              <button class='flex items-center justify-center w-8 h-8 bg-white text-green-500 hover:text-white rounded-full hover:bg-green-600'>
+            <div className='flex items-center justify-center space-x-2 py-4'>
+              <div className='flex-grow border-t-2 border-[#049E43]'></div>
+              <button className='flex items-center justify-center w-8 h-8 bg-white text-green-500 hover:text-white rounded-full hover:bg-green-600'>
                 &lt;
               </button>
-              <button class='flex items-center justify-center w-8 h-8 bg-green-500 text-white rounded-full hover:bg-green-600'>
+              <button className='flex items-center justify-center w-8 h-8 bg-green-500 text-white rounded-full hover:bg-green-600'>
                 &gt;
               </button>
-              <div class='flex-grow border-t-2 border-[#049E43]'></div>
+              <div className='flex-grow border-t-2 border-[#049E43]'></div>
             </div>
           </div>
         </div>

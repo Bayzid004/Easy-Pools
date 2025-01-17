@@ -66,15 +66,15 @@ const Expect = () => {
           </div>
         </div>
         <div className='lg:w-[900px] w-[300px] mx-auto'>
-          <div class='flex items-center justify-center space-x-2 py-4'>
-            <div class='flex-grow border-t-2 border-[#049E43]'></div>
-            <button class='flex items-center justify-center w-8 h-8 bg-white text-green-500 hover:text-white rounded-full hover:bg-green-600'>
+          <div className='flex items-center justify-center space-x-2 py-4'>
+            <div className='flex-grow border-t-2 border-[#049E43]'></div>
+            <button className='flex items-center justify-center w-8 h-8 bg-white text-green-500 hover:text-white rounded-full hover:bg-green-600'>
               &lt;
             </button>
-            <button class='flex items-center justify-center w-8 h-8 bg-green-500 text-white rounded-full hover:bg-green-600'>
+            <button className='flex items-center justify-center w-8 h-8 bg-green-500 text-white rounded-full hover:bg-green-600'>
               &gt;
             </button>
-            <div class='flex-grow border-t-2 border-[#049E43]'></div>
+            <div className='flex-grow border-t-2 border-[#049E43]'></div>
           </div>
         </div>
       </div>
