@@ -1,5 +1,24 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/Components/Navbar";
+import NavbarContent from "@/Components/NavbarContent";
+import BannerContent from "@/Components/BannerContent";
+import PoolInstall from "@/Components/PoolInstall";
+import DefinitionPool from "@/Components/DefinitionPool";
+import DesignOptions from "@/Components/DesignOptions";
+import EasyPools from "@/Components/EasyPools";
+import EnsureLongevity from "@/Components/EnsureLongevity";
+import GalleryPool from "@/Components/GalleryPool";
+import ProcessPool from "@/Components/ProcessPool";
+import QualityExcellence from "@/Components/QualityExcellence";
+import CompareOther from "@/Components/CompareOther";
+import Expect from "@/Components/Expect";
+import BenefitsPool from "@/Components/BenefitsPool";
+import PoolContractor from "@/Components/PoolContractor";
+import BestCompany from "@/Components/BestCompany";
+import StartProject from "@/Components/StartProject";
+import ServingPool from "@/Components/ServingPool";
+import FooterPool from "@/Components/FooterPool";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,10 +40,45 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
+        <Navbar/>
+        <NavbarContent/>
+        <BannerContent/>
+        <PoolInstall/>
+        <DefinitionPool/>
+        <DesignOptions/>
+        <EasyPools/>
+        <EnsureLongevity/>
+        <GalleryPool/>
+        <ProcessPool/>
+        <QualityExcellence/>
+        <CompareOther/>
+        <Expect/>
+        <BenefitsPool/>
+        <PoolContractor/>
+        <BestCompany/>
+        <StartProject/>
+        <ServingPool/>
+        <FooterPool/>
         {children}
       </body>
     </html>
   );
 }
+{/* <main className='bg-[#E1FFFE] w-[1920px] mx-auto'>
+      <div className='w-[1350px] mx-auto pt-10'>
+        <div className='flex justify-center items-center gap-3 p-6'>
+          <div className='pt-1'>
+            <Image src='/Btn1.png' width={48} height={15} alt='Button' />
+          </div>
+          <div>
+            <p className='text-black'>Compare to Other Pool Materials</p>
+          </div>
+        </div>
+        <h1 className='text-4xl font-semibold text-center'>
+          How Does Vinyl Compare to Other Pool Materials <br /> in Your
+          Catalogue?
+        </h1>
+      </div>
+    </main> */}
