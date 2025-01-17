@@ -18,6 +18,9 @@ import ServingPool from "@/Components/ServingPool";
 export default function Home () {
   return (
     <main>
+      <div className="bg-red-600">
+        Hello andjkala cjakda
+      </div>
       <BannerContent />
       <PoolInstall />
       <DefinitionPool />
